@@ -9,9 +9,9 @@ import { Button } from 'primereact/button'
 import { InputText } from 'primereact/inputtext'
 
 function App() {
-  const [datatable, setDatatable] = useState([])
+  const [datatable, setDatatable] = useState<any[]>([])
   const [totalrecord, setTotalRecord] = useState(0)
-  const [selectedData, setSelectedData] = useState([])
+  const [selectedData, setSelectedData] = useState<any[]>([])
   const [first, setFirst ] = useState(0)
   const [rows, setRows] = useState(10)
   const [srows, setSrows] = useState('')
