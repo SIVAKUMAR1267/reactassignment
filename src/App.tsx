@@ -35,7 +35,7 @@ useEffect(() => {
     setRows(event.rows)
     
   }
-const handlesubmit =async (e) => {
+const handlesubmit =async (e : React.FormEvent) => {
    e.preventDefault()
    const n =parseInt(srows)
    if (isNaN(n) || n <= 0) return
