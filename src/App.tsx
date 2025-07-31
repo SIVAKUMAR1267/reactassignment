@@ -15,7 +15,7 @@ function App() {
   const [first, setFirst ] = useState(0)
   const [rows, setRows] = useState(10)
   const [srows, setSrows] = useState('')
-  const op = useRef(null)
+  const op = useRef<any>(null)
 useEffect(() => {
   const fetchData = async () => {
     try {
